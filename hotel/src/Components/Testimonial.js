@@ -4,29 +4,27 @@ import { AiFillStar } from "react-icons/ai";
 
 const Testimonial = () => {
   return (
-    <div className="work-section-wrapper">
-      <div className="work-section-top">
-        <p className="primary-subheading">Testimonial</p>
-        <h1 className="primary-heading">What They Are Saying</h1>
-        <p className="primary-text">
-          Lorem ipsum dolor sit amet consectetur. Non tincidunt magna non et
-          elit. Dolor turpis molestie dui magnis facilisis at fringilla quam.
+    <div className="testimonial-wrapper">
+      <div className="testimonial-top">
+        <p className="testimonial-subheading">Client Testimonial</p>
+        <h1 className="testimonial-heading">What Our Clients Say</h1>
+        <p className="testimonial-text">
+          "I've been consistently impressed with the quality and variety of meals offered by PickMeals. Every dish is a delightful balance of flavor and nutrition, making healthy eating enjoyable and convenient."
         </p>
       </div>
-      <div className="testimonial-section-bottom">
-        <img src={ProfilePic} alt="" />
-        <p>
-          Lorem ipsum dolor sit amet consectetur. Non tincidunt magna non et
-          elit. Dolor turpis molestie dui magnis facilisis at fringilla quam.
+      <div className="testimonial-bottom">
+        <img src={ProfilePic} alt="John Doe" className="testimonial-avatar" />
+        <p className="testimonial-content">
+          "The service provided by PickMeals is exceptional. From quick deliveries to personalized meal choices, they've exceeded my expectations. It's a relief knowing I can rely on them for my dietary needs."
         </p>
-        <div className="testimonials-stars-container">
+        <div className="testimonial-stars">
           <AiFillStar />
           <AiFillStar />
           <AiFillStar />
           <AiFillStar />
           <AiFillStar />
         </div>
-        <h2>John Doe</h2>
+        <h2 className="testimonial-name">John Doe</h2>
       </div>
     </div>
   );

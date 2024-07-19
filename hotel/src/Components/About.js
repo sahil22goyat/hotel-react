@@ -18,17 +18,15 @@ const About = () => {
           Food Is An Important Part Of A Balanced Diet
         </h1>
         <p className="primary-text">
-          Lorem ipsum dolor sit amet consectetur. Non tincidunt magna non et
-          elit. Dolor turpis molestie dui magnis facilisis at fringilla quam.
+        Take care of your body. It's the only place you have to live
         </p>
         <p className="primary-text">
-          Non tincidunt magna non et elit. Dolor turpis molestie dui magnis
-          facilisis at fringilla quam.
+        Let food be thy medicine, and medicine be thy food
         </p>
         <div className="about-buttons-container">
-          <button className="secondary-button">Learn More</button>
+          <button className="secondary-button">contact for More</button>
           <button className="watch-video-button">
-            <BsFillPlayCircleFill /> Watch Video
+            <BsFillPlayCircleFill /> Watch time
           </button>
         </div>
       </div>
